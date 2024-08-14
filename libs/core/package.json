@@ -1,15 +1,16 @@
 {
   "name": "@toy-lc/core",
   "version": "1.0.0",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/cjs/index.d.ts",
+  "main": "dist/cjs/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build:esm": "tsc -p tsconfig.cjs.json"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "prettier": "^3.3.3",
     "typescript": "^5.5.3"
   },
   "peerDependencies": {

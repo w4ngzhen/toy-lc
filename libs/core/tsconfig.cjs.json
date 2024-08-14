@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
     "target": "ES6",
+    "module": "CommonJS",
     "moduleResolution": "Node",
     "declaration": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "jsx": "react",
-    "outDir": "./dist"
+    "outDir": "./dist/cjs"
   }
 }
